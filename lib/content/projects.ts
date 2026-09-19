@@ -75,142 +75,253 @@ export const projects: Project[] = [
   },
 },
 
-  {
-    slug: "combie-coffee",
-    title: "Combie Coffee Information System",
-    summary:
-      "A campus project for an MSME cafe where the team visited the business directly to identify problems and design a website-based information system to support cafe operations.",
-    role: "UI/UX Designer, UML & Database Design",
-    tools: ["UML", "Database Design", "Figma", "Draw.io", "SQL"],
-    categories: ["System Analysis", "Database", "UI/UX"],
-    thumbnail: "/images/projects/combie-coffee.png",
-    featured: true,
-    detail: {
-      overview:
-        "A real-stakeholder campus project for a small-and-medium coffee business, focused on analyzing operational problems and designing a supporting information system.",
-      background:
-        "The cafe managed orders, stock, and reporting manually. The team visited on-site to understand pain points firsthand.",
-      objectives: [
-        "Identify operational problems through direct observation",
-        "Design a website-based information system for cafe operations",
-        "Model data and processes to support daily workflows",
-      ],
-      contribution: [
-        "Conducted problem analysis with the business owner",
-        "Designed UML diagrams and the database schema",
-        "Created the UI/UX design for key operational screens",
-      ],
-      process: [
-        "On-site visit and stakeholder discussion",
-        "Problem and requirement analysis",
-        "UML and database design",
-        "UI/UX design of core screens",
-      ],
-      features: [
-        "Order and menu management concept",
-        "Inventory and reporting support",
-        "Relational database design",
-        "Operational dashboard UI",
-      ],
-      learnings: [
-        "Working with real MSME stakeholders",
-        "Connecting database design to user needs",
-        "Prioritizing features under real constraints",
-      ],
-      gallery: ["/images/projects/combie-coffee1.png", "/images/projects/combie-coffee2.png"],
-    },
+{
+  slug: "combie-coffee",
+  title: "Combie Coffee Information System",
+  summary:
+    "A team-based information systems project for Combie Coffee, developed from direct stakeholder observation and requirement analysis through system documentation, UI/UX design, implementation planning, and final handover.",
+  role: "System Design & UI/UX Contributor",
+  tools: ["UML", "Figma", "Draw.io", "Database Design", "SRS", "SDD"],
+  categories: ["System Analysis", "System Design", "Database", "UI/UX"],
+  thumbnail: "/images/projects/combie-coffee1.png",
+  featured: true,
+
+  detail: {
+    overview:
+      "A campus information systems project developed for Combie Coffee. The team worked directly with the business to understand its operations, identify system requirements, and design a website-based information system supported by structured project and system documentation.",
+
+    background:
+      "The project began with understanding the company profile and existing operational processes at Combie Coffee. Based on the findings, the team identified system needs and prepared a proposed information system to support the business.",
+
+    objectives: [
+      "Understand the business profile and existing operational processes",
+      "Identify business and system requirements",
+      "Prepare structured project and software documentation",
+      "Design the proposed system architecture and database",
+      "Create an interface design aligned with user needs",
+      "Prepare an implementation plan and complete project handover",
+    ],
+
+    contribution: [
+      "Collaborated with the team in requirement analysis and project documentation",
+      "Contributed to the Project Charter and company profile analysis",
+      "Participated in preparing the Software Requirements Specification (SRS)",
+      "Focused on Software Design Description (SDD) and system design documentation",
+      "Designed UML diagrams and supporting system models",
+      "Contributed to database structure design",
+      "Designed the UI/UX for the proposed web application",
+      "Participated in implementation planning and final project handover documentation",
+    ],
+
+    process: [
+      "Company profile and stakeholder analysis",
+      "Project Charter preparation",
+      "Requirement identification and documentation",
+      "Software Requirements Specification (SRS)",
+      "Software Design Description (SDD)",
+      "UML and database design",
+      "UI/UX design",
+      "Implementation planning",
+      "System review and final handover",
+    ],
+
+    features: [
+      "Structured project documentation",
+      "Software requirements specification",
+      "Software design documentation",
+      "UML system models",
+      "Database design",
+      "UI/UX design",
+      "Implementation plan",
+      "Formal project handover documentation",
+    ],
+
+    learnings: [
+      "Working with a real business stakeholder",
+      "Translating business processes into structured system requirements",
+      "Preparing SRS and SDD documentation collaboratively",
+      "Connecting system design, database design, and interface design",
+      "Understanding the information system project lifecycle through final handover",
+    ],
+
+    gallery: [
+      "/images/projects/combie-coffee1.png",
+      "/images/projects/combie-coffee2.png",
+    ],
   },
-  {
-    slug: "explore-jakarta",
-    title: "Explore Jakarta",
-    summary:
-      "A tourism recommendation website for Jakarta integrated with machine learning, built with React (Vite), Node.js, and PostgreSQL, with a focus on frontend and UI/UX.",
-    role: "UI/UX Designer & Frontend Contributor",
-    tools: ["React", "Vite", "Node.js", "PostgreSQL", "Figma", "Tailwind"],
-    categories: ["UI/UX", "Frontend", "Team Project"],
-    thumbnail: "/images/projects/explore-jakarta.png",
-    featured: true,
-    detail: {
-      overview:
-        "A collaborative tourism recommendation platform for Jakarta that pairs a machine-learning backend with a modern, responsive interface.",
-      background:
-        "Travelers often struggle to discover destinations that match their interests. The team built a recommendation-driven experience to help.",
-      objectives: [
-        "Deliver a responsive, modern tourism interface",
-        "Integrate ML-based recommendations into the UX",
-        "Support smooth user flows from discovery to detail",
-      ],
-      contribution: [
-        "Owned the frontend implementation and UI/UX",
-        "Designed user flows and responsive layouts",
-        "Integrated the interface with backend recommendation APIs",
-      ],
-      process: [
-        "User flow and wireframe design",
-        "Responsive UI implementation in React",
-        "API integration with the recommendation service",
-        "Team collaboration and iteration",
-      ],
-      features: [
-        "Personalized destination recommendations",
-        "Responsive, modern interface",
-        "Searchable destination catalog",
-        "Detail pages for each destination",
-      ],
-      learnings: [
-        "Integrating ML outputs into a clean UX",
-        "Collaborating in a cross-functional team",
-        "Building responsive React interfaces",
-      ],
-      gallery: ["/images/projects/explore-jakarta1.png", "/images/projects/explore-jakarta2.png"],
-    },
+},
+  
+{
+  slug: "explore-jakarta",
+  title: "Explore Jakarta",
+  summary:
+    "A team capstone project that developed a tourism destination recommendation website for Jakarta with machine learning integration. My contribution focused on UI/UX design, frontend implementation, interface refinement, and team collaboration throughout the development process.",
+  role: "UI/UX Designer & Frontend Contributor",
+  tools: ["React", "Vite", "Tailwind CSS", "Figma", "Git", "GitHub"],
+  categories: ["UI/UX", "Frontend", "Team Project"],
+  thumbnail: "/images/projects/explore-jakarta1.png",
+  featured: true,
+
+  detail: {
+    overview:
+      "Explore Jakarta is a team-based tourism recommendation website designed to help users discover destinations that better match their interests, visit preferences, and travel context. The system combines a web interface with a machine learning recommendation component.",
+
+    background:
+      "The project started with team brainstorming to identify a relevant problem. The team selected tourism destination recommendation in Jakarta as the main topic, focusing on the difficulty users may face when comparing destinations, identifying suitable places, and planning trips efficiently.",
+
+    objectives: [
+      "Develop a tourism recommendation website for Jakarta",
+      "Design an interface that makes destination discovery easier",
+      "Integrate machine learning recommendations into the web experience",
+      "Build a responsive frontend based on the agreed UI/UX design",
+      "Collaborate through a structured Git and GitHub workflow",
+    ],
+
+    contribution: [
+      "Participated in early project brainstorming and planning",
+      "Contributed to UI/UX design using Figma",
+      "Worked with the frontend team to refine interfaces based on the design",
+      "Contributed to frontend implementation using the project frontend stack",
+      "Used GitHub branches to collaborate with other team members",
+      "Participated in discussions during machine learning integration",
+      "Supported interface adjustments so recommendation results could be presented clearly",
+      "Participated in project testing, documentation, evaluation, and final presentation preparation",
+    ],
+
+    process: [
+      "Idea brainstorming and problem definition",
+      "Project planning",
+      "UI/UX design in Figma",
+      "Frontend project setup using Vite and Tailwind CSS",
+      "Collaborative development using GitHub branches",
+      "Machine learning integration",
+      "Interface refinement and functional testing",
+      "Documentation and final presentation",
+    ],
+
+    features: [
+      "Tourism destination discovery",
+      "Personalized recommendation interface",
+      "Destination information and images",
+      "Location-related destination information",
+      "Responsive web interface",
+      "Machine learning recommendation integration",
+    ],
+
+    learnings: [
+      "Working collaboratively in a multi-role development team",
+      "Translating Figma designs into frontend interfaces",
+      "Using Git branches for collaborative development",
+      "Understanding how machine learning outputs are integrated into a web interface",
+      "Participating in an end-to-end capstone development process",
+    ],
+
+    gallery: [
+      "/images/projects/explore-jakarta1.png",
+      "/images/projects/explore-jakarta2.png",
+    ],
   },
-  {
-    slug: "java-island-tourism",
-    title: "Java Island Tourism Recommendation System",
-    summary:
-      "An undergraduate thesis project involving the end-to-end design and development of a tourism destination recommendation system for Java Island using content-based filtering and context-aware re-ranking.",
-    role: "System Designer, UI/UX & Development Contributor",
-    tools: ["Content-Based Filtering", "System Design", "Figma", "React", "REST API"],
-    categories: ["Thesis", "System Design", "UI/UX", "Recommendation System"],
-    thumbnail: "/images/projects/java-island.png",
-    featured: true,
-    detail: {
-      overview:
-        "A thesis project delivering an end-to-end tourism recommendation system for Java Island, combining content-based filtering with context-aware re-ranking.",
-      background:
-        "Choosing destinations across a large region is overwhelming. The system recommends places based on content similarity and contextual signals.",
-      objectives: [
-        "Design the overall system architecture",
-        "Implement content-based recommendation logic",
-        "Add context-aware re-ranking for relevance",
-        "Design an intuitive interface for exploration",
-      ],
-      contribution: [
-        "Designed the system and recommendation logic",
-        "Created wireframes and the interface design",
-        "Contributed to development and integration",
-      ],
-      process: [
-        "Problem framing and system design",
-        "Recommendation algorithm design",
-        "Wireframing and interface design",
-        "Development, testing, and thesis documentation",
-      ],
-      features: [
-        "Content-based destination recommendations",
-        "Context-aware result re-ranking",
-        "End-to-end recommendation pipeline",
-        "Exploration-focused UI",
-      ],
-      learnings: [
-        "Designing a system from scratch to delivery",
-        "Reasoning about recommendation quality",
-        "Documenting research-grade work clearly",
-      ],
-      gallery: ["/images/projects/java-island1.png", "/images/projects/java-island2.png"],
-    },
+},
+  
+{
+  slug: "java-island-tourism",
+  title: "Java Island Tourism Destination Recommendation System",
+  summary:
+    "An undergraduate thesis project independently developed from data preparation and recommendation modeling to system design, implementation, testing, and deployment using Content-Based Filtering and Context-Aware Re-ranking.",
+  role: "Researcher & System Developer",
+  tools: [
+    "Python",
+    "Streamlit",
+    "Pandas",
+    "Scikit-learn",
+    "TF-IDF",
+    "Cosine Similarity",
+    "Haversine",
+    "GitHub"
+  ],
+  categories: [
+    "Thesis",
+    "System Development",
+    "Recommendation System",
+    "Machine Learning"
+  ],
+  thumbnail: "/images/projects/java-island1.png",
+  featured: true,
+
+  detail: {
+    overview:
+      "An undergraduate thesis project focused on developing a tourism destination recommendation system for Java Island using Content-Based Filtering and Context-Aware Re-ranking. The project was independently developed from research and data preparation through system design, implementation, testing, and deployment.",
+
+    background:
+      "Users searching for tourism destinations often need to consider multiple factors such as interests, budget, ratings, and location. The system was developed to combine content similarity with contextual factors so users could filter and explore tourism destinations based on their preferences.",
+
+    objectives: [
+      "Develop a web-based tourism recommendation system for Java Island",
+      "Apply Content-Based Filtering using TF-IDF and Cosine Similarity",
+      "Apply Context-Aware Re-ranking using similarity, rating, and distance",
+      "Provide preference-based filtering for tourism destinations",
+      "Design and implement an interactive web interface",
+      "Evaluate both recommendation performance and user acceptance",
+    ],
+
+    contribution: [
+      "Designed and developed the entire project independently",
+      "Collected, integrated, cleaned, and prepared tourism datasets",
+      "Developed the Content-Based Filtering model using TF-IDF and Cosine Similarity",
+      "Implemented Context-Aware Re-ranking based on content similarity, rating, and geographical distance",
+      "Implemented Haversine distance calculation for location-based recommendations",
+      "Designed the system workflow, navigation structure, and user interface",
+      "Developed the web application using Python and Streamlit",
+      "Performed Black Box Testing and User Acceptance Testing",
+      "Evaluated recommendation results using Precision@5",
+      "Deployed and documented the completed application",
+    ],
+
+    process: [
+      "Business understanding",
+      "Data understanding",
+      "Data preparation",
+      "Recommendation model development",
+      "Context-aware re-ranking design",
+      "System requirement analysis",
+      "System and interface design",
+      "Application implementation",
+      "Model evaluation",
+      "Black Box Testing",
+      "User Acceptance Testing",
+      "Deployment and documentation",
+    ],
+
+    features: [
+      "Tourism recommendations across Java Island",
+      "Content-Based Filtering using TF-IDF and Cosine Similarity",
+      "Context-Aware Re-ranking using rating and geographical distance",
+      "Category, city, keyword, budget, and minimum-rating filters",
+      "Reference-destination recommendation",
+      "Location and radius-based filtering",
+      "Interactive recommendation map",
+      "Destination detail pages",
+      "Similar-destination recommendations",
+      "Recommendation results in card, map, and table views",
+      "CSV export for recommendation results",
+    ],
+
+    learnings: [
+      "Developing an end-to-end recommendation system independently",
+      "Integrating data preparation, recommendation modeling, and application development",
+      "Evaluating recommendation systems using Precision@5",
+      "Designing recommendation logic around multiple user contexts",
+      "Conducting functional testing and user acceptance testing",
+      "Documenting a complete research and software development process",
+    ],
+
+    gallery: [
+      "/images/projects/java-island1.png",
+      "/images/projects/java-island2.png",
+    ],
   },
+},
+  
   {
     slug: "pwa-story-app",
     title: "PWA Story App",
