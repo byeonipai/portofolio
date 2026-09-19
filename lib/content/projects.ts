@@ -51,7 +51,7 @@ export const projects: Project[] = [
         "Communicating system thinking to non-technical stakeholders",
         "Balancing business goals with usability",
       ],
-      gallery: ["/images/projects/dental-senyum.png"],
+      gallery: ["/images/projects/dental-senyum1.png", "/images/projects/dental-senyum2.png"],
     },
   },
   {
@@ -96,7 +96,7 @@ export const projects: Project[] = [
         "Connecting database design to user needs",
         "Prioritizing features under real constraints",
       ],
-      gallery: ["/images/projects/combie-coffee.png"],
+      gallery: ["/images/projects/combie-coffee1.png", "/images/projects/combie-coffee2.png"],
     },
   },
   {
@@ -141,7 +141,7 @@ export const projects: Project[] = [
         "Collaborating in a cross-functional team",
         "Building responsive React interfaces",
       ],
-      gallery: ["/images/projects/explore-jakarta.png"],
+      gallery: ["/images/projects/explore-jakarta1.png", "/images/projects/explore-jakarta2.png"],
     },
   },
   {
@@ -187,7 +187,7 @@ export const projects: Project[] = [
         "Reasoning about recommendation quality",
         "Documenting research-grade work clearly",
       ],
-      gallery: ["/images/projects/java-island.png"],
+      gallery: ["/images/projects/java-island1.png", "/images/projects/java-island2.png"],
     },
   },
   {
