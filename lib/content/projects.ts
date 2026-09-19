@@ -6,54 +6,75 @@ import type { Project } from "./types"
  * the images into /public/images/projects/. No layout changes required.
  */
 export const projects: Project[] = [
-  {
-    slug: "dental-senyum-clinic",
-    title: "Dental Senyum Clinic Information System",
-    summary:
-      "A system analysis case study for a dental clinic created as part of a BNSP competency assessment, covering interview-based requirement gathering, UML modeling, UI/UX design, and documentation.",
-    role: "System Analyst",
-    tools: ["Interviews", "UML", "Draw.io", "Figma", "Documentation"],
-    categories: ["System Analysis", "UI/UX", "Case Study"],
-    thumbnail: "/images/projects/dental-senyum.png",
-    featured: true,
-    detail: {
-      overview:
-        "An end-to-end system analysis case study for a dental clinic, produced for a BNSP System Analyst competency assessment. The work demonstrates the full analysis lifecycle from stakeholder interviews to interface design.",
-      background:
-        "The clinic relied on manual, paper-based processes for appointments, patient records, and reporting, creating bottlenecks and data inconsistencies.",
-      objectives: [
-        "Capture real business and user requirements through structured interviews",
-        "Model existing and proposed business processes",
-        "Produce clear UML artifacts and system documentation",
-        "Design an intuitive interface aligned with clinic workflows",
-      ],
-      contribution: [
-        "Led requirement gathering and stakeholder interviews",
-        "Performed business process analysis and gap identification",
-        "Authored use case, activity, and class diagrams",
-        "Designed wireframes and the interface concept",
-      ],
-      process: [
-        "Requirement elicitation via interviews and observation",
-        "Business process mapping (as-is vs. to-be)",
-        "UML modeling and requirement specification",
-        "Wireframing and interface design",
-        "Documentation and assessment presentation",
-      ],
-      features: [
-        "Appointment and patient record management concept",
-        "Structured requirement specification",
-        "Complete UML documentation set",
-        "Clinic-focused UI wireframes",
-      ],
-      learnings: [
-        "Turning raw interview notes into structured requirements",
-        "Communicating system thinking to non-technical stakeholders",
-        "Balancing business goals with usability",
-      ],
-      gallery: ["/images/projects/dental-senyum1.png", "/images/projects/dental-senyum2.png"],
-    },
+{
+  slug: "dental-senyum-clinic",
+  title: "Dental Senyum Clinic Information System",
+  summary:
+    "A system analysis case study completed as part of the BNSP System Analyst competency assessment, covering requirements analysis, software specification, system design, UI/UX design, validation, and user acceptance planning.",
+  role: "System Analyst",
+  tools: ["Requirement Analysis", "UML", "Draw.io", "Figma", "Documentation"],
+  categories: ["System Analysis", "UI/UX", "Case Study"],
+  thumbnail: "/images/projects/dental-senyum1.png",
+  featured: true,
+  detail: {
+    overview:
+      "A system analysis case study for Dental Senyum Clinic completed as part of the BNSP System Analyst competency assessment. The project covered the analysis and design process from identifying software requirements to designing system components, user interfaces, and user experience.",
+
+    background:
+      "The assessment was based on a provided clinic case study. The task focused on analyzing business and user needs, organizing software requirements, designing the proposed system, and preparing supporting system analysis documentation.",
+
+    objectives: [
+      "Identify software requirement sources and appropriate elicitation techniques",
+      "Analyze, classify, and document software requirements",
+      "Prepare software requirement specifications",
+      "Design software structure and system components",
+      "Design user interface and user experience",
+      "Validate requirements and prepare user acceptance testing scenarios",
+    ],
+
+    contribution: [
+      "Analyzed the case study and interview findings to identify system requirements",
+      "Classified and structured functional and supporting requirements",
+      "Prepared software requirement and system analysis documentation",
+      "Created system models and software design artifacts",
+      "Designed UI/UX concepts based on identified user needs",
+      "Prepared requirement validation and user acceptance testing scenarios",
+    ],
+
+    process: [
+      "Requirement source identification",
+      "Requirement elicitation and analysis",
+      "Requirement classification and specification",
+      "Requirement review and validation",
+      "Software structure and component design",
+      "UI/UX design",
+      "User acceptance testing preparation",
+      "Final competency assessment",
+    ],
+
+    features: [
+      "Software requirement specification",
+      "System and software design documentation",
+      "UML and workflow modeling",
+      "UI/UX design",
+      "Requirement validation",
+      "User acceptance testing scenarios",
+    ],
+
+    learnings: [
+      "Structuring business and user needs into clear software requirements",
+      "Connecting requirement analysis with system and interface design",
+      "Validating requirements before implementation",
+      "Preparing professional system analysis documentation",
+    ],
+
+    gallery: [
+      "/images/projects/dental-senyum1.png",
+      "/images/projects/dental-senyum2.png",
+    ],
   },
+},
+
   {
     slug: "combie-coffee",
     title: "Combie Coffee Information System",
