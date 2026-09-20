@@ -147,6 +147,7 @@ export const projects: Project[] = [
     gallery: [
       "/images/projects/combie-coffee1.png",
       "/images/projects/combie-coffee2.png",
+      "/images/projects/combie-coffee3.jpg",
     ],
   },
 },
@@ -219,6 +220,7 @@ export const projects: Project[] = [
     gallery: [
       "/images/projects/explore-jakarta1.png",
       "/images/projects/explore-jakarta2.png",
+      "/images/projects/explore-jakarta3.png",
     ],
   },
 },
@@ -318,6 +320,7 @@ export const projects: Project[] = [
     gallery: [
       "/images/projects/java-island1.png",
       "/images/projects/java-island2.png",
+      "/images/projects/java-island3.jpg",
     ],
   },
 },
@@ -330,7 +333,7 @@ export const projects: Project[] = [
     role: "Frontend Developer & UI Designer",
     tools: ["JavaScript", "SPA", "MVP", "Service Worker", "IndexedDB", "Web Push"],
     categories: ["Frontend", "PWA", "SPA"],
-    thumbnail: "/images/projects/pwa-story.png",
+    thumbnail: "/images/projects/pwa-story.jpg",
     featured: false,
     detail: {
       overview:
@@ -364,7 +367,7 @@ export const projects: Project[] = [
         "Applying MVP architecture in vanilla JS",
         "Using modern browser platform APIs",
       ],
-      gallery: ["/images/projects/pwa-story.png"],
+      gallery: ["/images/projects/pwa-story.jpg"],
     },
   },
   {
@@ -375,7 +378,7 @@ export const projects: Project[] = [
     role: "Frontend Developer & UI Designer",
     tools: ["JavaScript", "SPA", "REST API", "Web Components"],
     categories: ["Frontend", "SPA"],
-    thumbnail: "/images/projects/notes-app.png",
+    thumbnail: "/images/projects/notes-app.jpg",
     featured: false,
     detail: {
       overview:
@@ -390,7 +393,7 @@ export const projects: Project[] = [
         "Responsive single-page interface",
       ],
       learnings: ["SPA structure and state handling", "Working with REST APIs on the frontend"],
-      gallery: ["/images/projects/notes-app.png"],
+      gallery: ["/images/projects/notes-app.jpg"],
     },
   },
   {
