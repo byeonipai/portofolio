@@ -2,21 +2,21 @@ import type { ExperienceItem } from "./types"
 
 export const experienceHeading = "Experience Summary"
 
-/** Keep entries concise and recruiter-friendly. */
+/** Keep entries concise, specific, and recruiter-friendly. */
 export const experience: ExperienceItem[] = [
   {
     role: "Digital Service Support & Design Specialist",
     description:
-      "Supported digital services and contributed to interface design, ensuring solutions matched user and business needs.",
+      "Managed digital service operations, supported users through troubleshooting, and created customized digital materials based on user needs.",
   },
   {
     role: "Business IT Intern",
     description:
-      "Bridged business requirements and IT delivery — gathering needs, documenting processes, and supporting system tasks.",
+      "Analyzed application features and system workflows, identified user issues and requirements, and supported users in navigating system processes.",
   },
   {
     role: "Project Coordinator",
     description:
-      "Coordinated tasks and stakeholders across projects, keeping timelines, communication, and deliverables on track.",
+      "Coordinated around 50 projects from requirement clarification to final delivery, managing revisions, progress, follow-ups, and deadlines.",
   },
 ]
