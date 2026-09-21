@@ -1,34 +1,69 @@
 import type { SkillGroup } from "./types"
 
-/** Add a category or a skill by editing this array. Cards render automatically. */
+/** Add a category or skill by editing this array. Cards render automatically. */
 export const skillGroups: SkillGroup[] = [
   {
     category: "System Analysis",
     skills: [
       "Requirement Analysis",
-      "UML",
+      "Requirement Elicitation",
       "Business Process Analysis",
-      "Functional Testing",
+      "UML",
+      "SRS & SDD",
+      "System Design",
       "System Documentation",
+      "Functional Testing",
+      "User Acceptance Testing",
     ],
   },
+
   {
     category: "UI/UX",
-    skills: ["Figma", "Wireframing", "Prototyping", "User Flow", "Interface Design"],
+    skills: [
+      "Figma",
+      "Wireframing",
+      "Prototyping",
+      "User Flow",
+      "Interface Design",
+      "UI/UX Design",
+    ],
   },
+
   {
-    category: "Frontend",
-    skills: ["HTML", "CSS", "JavaScript", "React", "Tailwind", "SPA", "PWA"],
+    category: "Frontend Development",
+    skills: [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "React",
+      "Tailwind CSS",
+      "SPA",
+      "PWA",
+      "REST API Integration",
+    ],
   },
+
   {
-    category: "Other Tools",
+    category: "Data & Development",
+    skills: [
+      "SQL / DBMS",
+      "PostgreSQL",
+      "Python",
+      "Streamlit",
+      "REST API",
+      "Go",
+    ],
+  },
+
+  {
+    category: "Tools & Platforms",
     skills: [
       "Postman",
       "Git / GitHub",
       "Draw.io",
       "VS Code",
-      "SQL / DBMS",
-      "Basic Cloud Computing",
+      "Google Colab",
+      "Cloud Computing Fundamentals",
     ],
   },
 ]
